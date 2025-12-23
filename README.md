@@ -8,3 +8,4 @@ Test cloud solutions with Giga AI
 Пароль : Volga430m!
 Зона доступности: ru.AZ-2
 Публичный адрес: 45.151.30.147
+Группа безопасности: wordpress-server
