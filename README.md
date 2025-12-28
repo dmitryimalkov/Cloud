@@ -20,3 +20,7 @@ sudo sed -i -e "s/password_here/Volga430m!/g" /var/www/html/wp-config.php
 Настройка доменного имени
 45.151.30.147.nip.io
 
+Не удалось запустить wordpress:
+Requesting a certificate for 45.151.30.147.nip.io
+An unexpected error occurred:
+There were too many requests of a given type :: too many certificates (25000) already issued for "nip.io" in the last 168h0m0s, retry after 2025-12-28 09:18:47 UTC: see https://letsencrypt.org/docs/rate-limits/#new-certificates-per-registered-domain
