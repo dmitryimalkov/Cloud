@@ -10,3 +10,13 @@ Test cloud solutions with Giga AI
 Публичный адрес: 45.151.30.147
 Группа безопасности: wordpress-server
 Пробный вход был в 18:10- 23 декабря. Виртуальная машина остановлена
+
+mysql login wp_user
+mysql pass Volga430m!
+
+Настройте WordPress с помощью шаблона wp-config-sample.php. Выполните команды копирования и заполнения шаблонного файла. В <password> укажите пароль для пользователя wp_user, заданный при настройке базы данных.
+sudo sed -i -e "s/password_here/Volga430m!/g" /var/www/html/wp-config.php
+
+Настройка доменного имени
+45.151.30.147.nip.io
+
